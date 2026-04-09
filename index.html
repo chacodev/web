@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Tienda online</title>
-	<link rel="stylesheet" href="style.css">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHACO DEV | Tiendas E-commerce Listas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header>
-	<h1 id="nombre-negocio">CHACO DEV</h1>
-	<p id="frase">Desarrollo Web Fullstack</p>
+    <nav class="navbar">
+        <div class="logo">CHACO DEV</div>
+        <ul class="nav-links">
+            <li><a href="#servicios">Soluciones</a></li>
+            <li><a href="#proyectos">Portafolio</a></li>
+            <li><a href="#contacto" class="btn-small">Cotizar</a></li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1 id="nombre-negocio">CHACO DEV</h1>
+        <p id="frase">Tiendas Online de Alto Rendimiento</p>
+        <p class="sub-hero">No solo programamos, creamos máquinas de venta listas para usar.</p>
+        <div class="hero-btns">
+            <a href="#servicios" class="btn-primary">Ver Catálogo</a>
+            <a href="#contacto" class="btn-secondary">Hablemos</a>
+        </div>
+    </div>
+</header>
+
+<section id="servicios" class="section">
+    <h2 class="section-title">Nuestras Tiendas Listas</h2>
+    <div class="grid-cards">
+        <!-- Producto 1 -->
+        <div class="card">
+            <div class="badge">Más Popular</div>
+            <h3>Tienda Express</h3>
+            <p>Ideal para emprendedores. Gestión de stock, pagos con Mercado Pago y diseño móvil.</p>
+            <span class="price">Desde $XXX</span>
+            <a href="#" class="btn-card">Ver Demo</a>
+        </div>
+        <!-- Producto 2 -->
+        <div class="card">
+            <h3>E-commerce Pro</h3>
+            <p>Soporte multimoneda, cupones de descuento, y panel de administración avanzado.</p>
+            <span class="price">Desde $XXX</span>
+            <a href="#" class="btn-card">Ver Demo</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
